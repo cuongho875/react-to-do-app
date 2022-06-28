@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ebe5e5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input{
+  border: #bfbfbf 1px solid;
+}
+.App{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Main{
+  width: 50%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.List-to-do{
+  width: 95%;
+  text-align: left;
+  margin-bottom: 0;
+}
+.List-to-do li{
+  list-style-type: none;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 10px 0;
+}
+.List-to-do li:last-child{
+  border: none;
+}
+footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #f8f2f2;
+  padding: 0 35px;
+  justify-content: space-between;
+}
+.footer-right div,
+.footer-left div{
+  display: inline;
+  padding: 1px;
+}
+.countItem{
+  display: inline;
+}
+.active{
+  border: 1px solid #bfbfbf;
+}
